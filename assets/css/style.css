@@ -26,20 +26,18 @@ header {
     background-color: lightcoral;
 
 }
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 /*main style*/
 main {
     background-color: lightblue;
     /* Make main element take up any surplus to push footer down */
     flex: 1 0 auto;
     
-Oswald {
-    font-family: Oswald;
-}
 
-}
-#Lato {
-    font-family: Lato;
-}
 /*footer style*/
 footer {
     background-color: orange;
