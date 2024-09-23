@@ -96,10 +96,11 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }  
 
 /*footer style*/
 footer {
     background-color: orange;
-    flex: 0 0 auto;
+    
 }
