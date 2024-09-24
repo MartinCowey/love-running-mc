@@ -205,6 +205,17 @@ main {
     color: #fafafa;
 }
 
+/* Image gallery page */
+
+#photos img {
+    width: 100%;
+    line-height: 1;
+}
+
+#photos {
+    line-height: 0;
+}
+
 
 
 
@@ -221,6 +232,17 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* media query: large or landscape phones (576px and up) */
+
+@media screen and (min-width: 576px) {
+
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
 }
 
 /* media query : tablets and larger */
@@ -288,6 +310,12 @@ main {
 
     #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* gallery */
+    #photos {
+        column-count: 4;
+        column-gap: 0;
     }
 
 }
